@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jengkonang Digital</title>
+    <link
+      rel="stylesheet"
+      href="frontend/libraries/bootstrap/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant:200,400,700&&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="frontend/libraries/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="frontend/libraries/owlcarousel/owl.theme.default.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="container-fluid">
+      <nav class="row navbar navbar-expand-lg navbar navbar-light bg-white" >
+        <a class="navbar-brand" href="index.html">
+          <img src="frontend/images/logo_jkn.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navb"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navb">
+          <ul class="navbar-nav ml-auto mr-3">
+            <li class="nav-item mx-md-2">
+              <a class="nav-link active" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbardrop"
+                data-toggle="dropdown"
+              >
+                Jadwal Ronda
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="jadwalrondart05.html">RT 05</a>
+                <a class="dropdown-item" href="jadwalrondart06.html">RT 06</a>
+                <a class="dropdown-item" href="jadwalrondart07.html">RT 07</a>
+                <a class="dropdown-item" href="jadwalrondart08.html">RT 08</a>
+                <a class="dropdown-item" href="jadwalrondart09.html">RT 09</a>
+              </div>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="https://secreto.site/id/16240728">Kritik saran</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="contact.html">Kontak</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="tentang.html">Tentang</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container-fluid">
+      <div class="header-judul">
+        <h1>Tentang</h1>
+      </div>
+      <div class="header-text">
+        <p>
+          Jengkonang Digital ini diciptakan oleh para remaja 
+            jengkonang (KRJ).Karena melihat serba online disaat pandemi 
+            Covid-19.Dengan diciptakan Fitur ini,semoga dapat memudahkan atau menjembatani masyarakat khususnya warga jengkonang RW 02,
+            dalam transaksi apapun.
+            <br>
+              Addapun Website ini memiliki fitur : 
+              <br>
+              1.Informasi Terbaru (Menghindari HOAX)
+              <br>
+              2.Pembayaran online
+              <br>
+              3.Pasang Iklan Online (GRATIS)
+              <br>
+              3.Kegiatan KRJ 
+              <br>
+              4.Kritik Saran 
+              <br>
+              5.Bersifat Terbuka/Umum 
+              <br>
+              Bila ada yang kurang paham dalam menggunakan Website ini,
+              silahkan bisa <a href="contact.html">Klik Disini</a>
+              untuk info lebih lanjut.
+              <br>
+              <h2>Terima Kasih</h2>
+        </p>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-tentang">
+        © 2021 Jengkonang | All Rights Reserved.
+      </div>
+    </footer>
+        
+        
+
+
+    <script src="frontend/libraries/retina/retina.js"></script>
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/owlcarousel/owl.carousel.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script>
+          $('.owl-carousel').owlCarousel({
+              loop:true,
+              margin:10,
+              
+              
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:3
+                  },
+                  1000:{
+                      items:5
+                  }
+              }
+          })
+        </script>
+        <script>
+          $('.testimonial-carousel').owlCarousel({
+              loop:true,
+              margin:10,
+              nav:true,
+              
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:3
+                  },
+                  1000:{
+                      items:5
+                  }
+              }
+          })
+        </script>
+    
+  </body>
+</html>

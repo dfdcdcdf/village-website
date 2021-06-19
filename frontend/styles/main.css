@@ -1,0 +1,490 @@
+* {
+  background-color: #fff;
+}
+body {
+  background-color: #fff;
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
+}
+/* NAVBAR */
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.collapse .navbar-collapse {
+  background-color: #fff;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+/* CAROUSEL */
+
+.container-fluid .row p {
+  width: 100vh;
+  height: 40px;
+  background-color: #051334;
+  color: #fff;
+}
+
+
+/* INFORMASI */
+
+.text-informasi {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 20px 2px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.parent-informasi {
+  background-color: #fff;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+}
+
+.parent-informasi .card-body small {
+  margin: 10px 0px;
+}
+
+.parent-informasi .card-body h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin: 4px 0px;
+}
+
+.parent-informasi .card-body {
+  height: 400px;
+}
+
+.parent-informasi .card-body .card-text {
+  height: 200px;
+  font-size: 15px;
+  text-align: justify;
+  overflow: auto;
+}
+
+.parent-informasi .card-body a  {
+  background-color: #FF9E53;
+  border-radius: 20px;
+  color: #051334;
+  margin: 0px 2px 0px 45px;
+}
+
+/* IKLAN */
+
+.text-iklan {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 20px 2px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.parent-iklan {
+  background-color: #fff;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+}
+
+.parent-iklan .card-body small {
+  margin: 10px 0px;
+}
+
+.parent-iklan .card-body h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin: 4px 0px;
+}
+
+.parent-iklan .card-body {
+  height: 400px;
+}
+
+.parent-iklan .card-body .card-text {
+  height: 200px;
+  font-size: 15px;
+  text-align: justify;
+  overflow: auto;
+}
+
+.parent-iklan .card-body a  {
+  background-color: #FF9E53;
+  border-radius: 20px;
+  color: #051334;
+  margin: 0px 2px 0px 45px;
+}
+
+/* TRANSAKSI */
+.text-pembayaran {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px 0px 0px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100% ;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.img-area {
+  width: 100px;
+  height: 100px;
+  display: block;
+  overflow: hidden;
+  margin:  0 auto;
+}
+
+.img-area img {
+  width: 100%;
+}
+
+.single-testi {
+  background-color: #fff;
+  padding: 10%;
+  text-align: center;
+}
+
+.single-testi .img-text h2 {
+  font-size: 16px;
+  color: #051334;
+}
+
+.single-testi .btn-transaksi {
+  border-radius: 13px;
+  background-color: #FF9E53;
+  color: #051334;
+}
+
+/* WISATA */
+
+
+.text-wisata {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 20px 2px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.parent-wisata {
+  background-color: #fff;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+}
+
+.parent-wisata .card-body small {
+  margin: 10px 0px;
+}
+
+.parent-wisata .card-body h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin: 4px 0px;
+}
+
+.parent-wisata .card-body {
+  height: 400px;
+}
+
+.parent-wisata .card-body .card-text {
+  height: 200px;
+  font-size: 15px;
+  text-align: justify;
+  overflow: auto;
+}
+
+.parent-wisata .card-body a  {
+  background-color: #FF9E53;
+  border-radius: 20px;
+  color: #051334;
+  margin: 0px 2px 0px 45px;
+}
+
+ /* ORGANISASI */
+
+.text-organisasi {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 20px 2px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.parent-organisasi {
+  background-color: #fff;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+}
+
+.parent-organisasi .card-body small {
+  margin: 10px 0px;
+}
+
+.parent-organisasi .card-body h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin: 4px 0px;
+}
+
+.parent-organisasi .card-body {
+  height: 400px;
+}
+
+.parent-organisasi .card-body .card-text {
+  height: 200px;
+  font-size: 15px;
+  text-align: justify;
+  overflow: auto;
+}
+
+.parent-organisasi .card-body a  {
+  background-color: #FF9E53;
+  border-radius: 20px;
+  color: #051334;
+  margin: 0px 2px 0px 45px;
+}
+
+/* FOOTER */
+
+footer .footer-beranda {
+  background-color: #051334;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding: 6px;
+}
+
+footer .footer-contact {
+  background-color: #051334;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding: 6px;
+  margin-top: 350px;
+}
+
+footer .footer-tentang {
+  background-color: #051334;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding: 6px;
+  margin-top: 150px;
+}
+
+footer .footer-jadwal-ronda {
+  background-color: #051334;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+/* JADWAL RONDA */
+.text-jadwal-ronda {
+  text-align: center;
+  font-size: 20px;
+  color: #051334;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.section-jadwal-ronda .card-header {
+  font-weight: bold;
+}
+
+.card-jadwal {
+  margin-bottom: 40px;
+  color: #051334;
+}
+
+.card-header {
+  background-color: #FF9E53;
+}
+
+.btn-download-jadwal {
+  background-color: #FF9E53;
+  color: #051334;
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+
+/* TENTANG */
+
+.container-fluid .header-judul h1{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 40px;
+}
+
+.container-fluid .header-text p {
+  text-align: justify;
+}
+
+.container-fluid .header-text h2{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px;
+}
+
+/* KONTAK */
+.section-kontak .card-kontak img {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.section-kontak .card-body h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.section-kontak .card-body p {
+  font-size: 18px;
+}
+
+.section-kontak .card-body .btn-kontak {
+  background-color: #FF9E53;
+  border-radius: 50px;
+  color: #051334;
+}
+
+.section-kontak .card-kontak {
+  margin-bottom: 20px;
+}
+
+
+
+/* DESKTOP */
+
+@media (min-width: 992px) {
+
+  /* INFORMASI */
+
+.text-informasi {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .parent-box {
+    display: flex;
+    margin-bottom: 100px;
+  }
+
+  /* IKLAN */
+  .text-iklan {
+    margin-top: -70px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .iklan-box {
+    background-color: #051334;
+    width: 100%;
+    display: flex;
+    margin-bottom: 90px;
+  }
+  
+  /* TRANSAKSI */
+  .text-pembayaran {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .wrapper {
+    width: 100% ;
+    margin-top: -140px;
+    margin-bottom: 30px;
+  }
+
+
+  /* WISATA */
+  .text-wisata {
+    margin-top: -70px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  /* ORGANISASI */
+  .text-organisasi {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+
+   .organisasi-box {
+    background-color: #071c4d;
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
+
+  /* JADWAL RONDA */
+  .text-jadwal-ronda {
+    text-align: center;
+    font-size: 45px;
+    color: #051334;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+/* JUMBOTRON TENTANG */
+.header-tentang img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+
+
+ }
+
+
+
+/*# sourceMappingURL=main.css.map */
